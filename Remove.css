@@ -1,0 +1,99 @@
+body {
+   font-family: 'Inter', sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding:0%;
+}
+
+header {
+    background-color: #fff;
+    color: #181818;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #161414;
+    text-decoration: none;
+}
+
+#home {
+    background-image: linear-gradient(to bottom, #ded9d9, #eae5e5);
+    padding: 6em;
+    text-align: left;
+}
+
+#home h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+
+/* Custom CSS */
+.font-display {
+  font-family: 'Arial', sans-serif;
+}
+
+.btn-image {
+  background: none;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn-image:hover {
+  transform: scale(1.05);
+}
+
+.result-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#resultImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+  display: none;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+footer {
+    background-color: #fff;
+    color: #3aa35d;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
